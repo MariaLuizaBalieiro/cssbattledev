@@ -1,32 +1,23 @@
 *{
 
-    margin: 1fr;
-    box-sizing: border-box;
-
 }
-body{
-    background-color: #62374e;
-}
-
-div.quadrado1{
-    margin-left: 10rem;
-    background-color: #fdc57b;
-    width: 60px;
-    height: 60px;
-    font-size: 90;
-}
-
-div.quadrado2{
-    margin-right: 15rem;
-    background-color: #fdc57b;
-    width: 60px;
-    height: 60px;
-    font-size: 90;
-    padding-right: 15rem;
-}
-
-div.quadrado3{
-
-}
-
-
+body {
+    margin: 0;
+    background: #62374e;
+  }
+  
+  
+  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    
+  }
+  .box span {
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+    align-self: center;
+    margin: 50px;
+  }
