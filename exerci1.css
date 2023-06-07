@@ -1,0 +1,32 @@
+*{
+
+    margin: 1fr;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #62374e;
+}
+
+div.quadrado1{
+    margin-left: 10rem;
+    background-color: #fdc57b;
+    width: 60px;
+    height: 60px;
+    font-size: 90;
+}
+
+div.quadrado2{
+    margin-right: 15rem;
+    background-color: #fdc57b;
+    width: 60px;
+    height: 60px;
+    font-size: 90;
+    padding-right: 15rem;
+}
+
+div.quadrado3{
+
+}
+
+
